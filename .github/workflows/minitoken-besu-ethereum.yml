@@ -1,4 +1,4 @@
-name: minitoken-ethereum-ethereum
+name: minitoken-besu-ethereum
 
 on:
   push:
