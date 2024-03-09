@@ -13,9 +13,10 @@ This functionalities allow to call from a Blockchain A to a Blockchain B for a d
 
 # Preparation
 
-Execute `npm install` in the following directories to install dependencies.
+Execute `npm install` in the following order on these directories to install dependencies.
 
 - *contracts/minitoken/solidity*
+- *contracts/minitoken/solidityB2*
 - *samples/minitoken-ethereum-ethereum*
 
 Once installed, first make sure that on:
@@ -34,6 +35,10 @@ After it, update  *samples/minitoken-ethereum-ethereum/truffle-config.js* changi
 Execute `make setup2`
 
 # Tests
+
+Before executing the tests, make sure that you change back *samples/minitoken-ethereum-ethereum/truffle-config.js* `contract_dir2` to `contract_dir` on the variables from before.
+
+This is because all interactions are made from the Blockchain A, and Blockchain B will return values through the IBC without needing of an active party interacting with it on the other side.
 
 You can execute the following tests from *samples/minitoken-ethereum-ethereum* to check the functioning of the project:
 
