@@ -12,7 +12,7 @@ We use the following ledgers specifically:
 Execute `npm install` in the following directory.
 
 - contracts/minitoken/solidity
-- samples/minitoken-besu-ethereum
+- samples/minitoken-ethereum-ethereum
 
 # Setup
 
