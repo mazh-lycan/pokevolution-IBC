@@ -22,10 +22,10 @@ contract MiniDelegateB2 is IIBCModule {
         ibcHandler = ibcHandler_;
 
         //para pruebas ahora, predeterminado el usuario puede acceder al registro 0x0541...712
-        certificate["kadabra"] = "alakazam";
-        certificate["machoke"] = "machamp";
-        certificate["haunter"] = "gengar";
-        certificate["graveler"] = "golem";
+        certificate["Kadabra"] = "Alakazam";
+        certificate["Machoke"] = "Machamp";
+        certificate["Haunter"] = "Gengar";
+        certificate["Graveler"] = "Golem";
 
     }
 

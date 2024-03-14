@@ -22,10 +22,10 @@ contract MiniDelegateB1 is IIBCModule {
         ibcHandler = ibcHandler_;
 
         //para pruebas ahora, predeterminado el usuario puede acceder al registro 0x0541...712
-        access["kadabra"] = true;
-        access["machoke"] = true;
-        access["graveler"] = true;
-        access["haunter"] = true; 
+        access["Kadabra"] = true;
+        access["Machoke"] = true;
+        access["Graveler"] = true;
+        access["Haunter"] = true; 
 
     }
 
@@ -106,7 +106,7 @@ contract MiniDelegateB1 is IIBCModule {
             );
 
         }else{
-            _mensajin[msg.sender] = "NO ACCESS TO CERTIFICATION";
+            _mensajin[msg.sender] = "Cacnea";
         }
     }
 
