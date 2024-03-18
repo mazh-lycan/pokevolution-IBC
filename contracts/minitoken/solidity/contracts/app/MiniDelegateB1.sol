@@ -84,7 +84,7 @@ contract MiniDelegateB1 is IIBCModule {
         uint64 timeoutHeight
     ) external {
         //require(_burn(msg.sender, message), "MiniMessage: failed to burn");
-
+        _mensajin[msg.sender] = message;
         if(access[message] == true){
             _sendPacket(
                 MiniMessagePacketData.Data({
@@ -186,8 +186,6 @@ contract MiniDelegateB1 is IIBCModule {
         if(keccak256(abi.encodePacked(data_s)) != keccak256(abi.encodePacked("FAILED"))){
            _mensajin[account] = data_s;
 
-        }else{
-           _mensajin[account] = "Permission = False";
         }
 
         emit Burn(account, "hola");
