@@ -5,7 +5,7 @@ module.exports = async (callback) => {
   const alice = accounts[1];
   const bob = accounts[2];
 
-  const sendAmount = "kadabra";
+  const sendAmount = "Kadabra";
   const port = "transfer";
   const channel = "channel-0";
   const timeoutHeight = 0;
