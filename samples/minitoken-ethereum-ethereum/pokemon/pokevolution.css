@@ -1,0 +1,21 @@
+.container {
+    text-align: center;
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pokemon-image {
+    max-width: 300px;
+}
+
+#evolve-btn {
+    margin-top: 10px;
+}
