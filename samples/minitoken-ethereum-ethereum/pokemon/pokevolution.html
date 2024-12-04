@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokevolution</title>
+    <link rel="stylesheet" href="pokevolution.css">
+</head>
+<body>
+    <div class="container">
+        <h1>POKEVOLUTION</h1>
+        <div class="menu">
+            <select id="pokemon-select">
+                <option value="">Select Pokemon</option>
+                <option value="Kadabra">Kadabra</option>
+                <option value="Machoke">Machoke</option>
+                <option value="Venonat">Venonat</option>
+            </select>
+        </div>
+        <div class="pokemon-container">
+            <img id="pokemon-image" src="./images/Cacnea_NB.gif" alt="Pokemon Image">
+            <div id="evolution-info">
+                <p>EVOLUTION</p>
+                <button id="evolve-btn">EVOLVE</button>
+            </div>
+        </div>
+    </div>
+    <script src="../node_modules/web3/dist/web3.min.js"></script>
+    <script type="module" src="pokevolution.js"></script>
+</body>
+</html>
